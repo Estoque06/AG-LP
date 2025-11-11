@@ -501,8 +501,8 @@ const ImageCarousel = () => {
 
   const slides = [
     {
-      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/lu3buosi_1%20%281%29.jpg",
-      caption: "To create Legacy Homes"
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/juyh5m6p_1%20%286%29.jpg",
+      caption: "Build a legacy home"
     },
     {
       image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/kn8jvlqr_1%20%283%29.jpg",
