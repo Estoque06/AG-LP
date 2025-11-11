@@ -287,16 +287,37 @@ function App() {
                 data-testid="trust-badge"
                 style={{ animationDelay: '0.3s' }}
               >
-                <p className="text-sm font-semibold uppercase tracking-wide mb-6" style={{ color: '#5a6b10' }}>13+ Years of Expertise | Zero Litigation | On Time Delivery Guaranteed</p>
+                <p className="text-sm font-semibold uppercase tracking-wide mb-8" style={{ color: '#5a6b10' }}>13+ Years of Expertise | Zero Litigation | On Time Delivery Guaranteed</p>
                 
                 {/* Feature Icons */}
-                <div className="flex justify-center lg:justify-start">
-                  <img 
-                    src="https://customer-assets.emergentagent.com/job_alt-graph/artifacts/lkfemc14_image.png" 
-                    alt="60 Minutes from Bangalore Airport | 28 Acres of Lush Green | Tropical Themed Community | Modern Amenities & Features"
-                    className="max-w-full h-auto"
-                    style={{ maxHeight: '120px' }}
-                  />
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto lg:mx-0">
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-16 h-16 mb-3 flex items-center justify-center">
+                      <MapPin className="w-12 h-12" style={{ color: '#242e06', strokeWidth: 1.5 }} />
+                    </div>
+                    <p className="text-xs font-medium leading-tight" style={{ color: '#242e06' }}>60 Minutes from<br />Bangalore Airport</p>
+                  </div>
+                  
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-16 h-16 mb-3 flex items-center justify-center">
+                      <TreePine className="w-12 h-12" style={{ color: '#242e06', strokeWidth: 1.5 }} />
+                    </div>
+                    <p className="text-xs font-medium leading-tight" style={{ color: '#242e06' }}>28 Acres<br />of Lush Green</p>
+                  </div>
+                  
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-16 h-16 mb-3 flex items-center justify-center">
+                      <Leaf className="w-12 h-12" style={{ color: '#242e06', strokeWidth: 1.5 }} />
+                    </div>
+                    <p className="text-xs font-medium leading-tight" style={{ color: '#242e06' }}>Tropical Themed<br />Community</p>
+                  </div>
+                  
+                  <div className="flex flex-col items-center text-center">
+                    <div className="w-16 h-16 mb-3 flex items-center justify-center">
+                      <Sparkles className="w-12 h-12" style={{ color: '#242e06', strokeWidth: 1.5 }} />
+                    </div>
+                    <p className="text-xs font-medium leading-tight" style={{ color: '#242e06' }}>Modern Amenities &<br />Features</p>
+                  </div>
                 </div>
               </div>
               
