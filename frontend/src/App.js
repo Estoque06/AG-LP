@@ -57,20 +57,24 @@ const ImageCarousel = () => {
 
   const slides = [
     {
-      image: "https://via.placeholder.com/1200x600/5a6b10/ffffff?text=Image+1",
-      caption: "Caption for Image 1"
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/lu3buosi_1%20%281%29.jpg",
+      caption: "To create Legacy Homes"
     },
     {
-      image: "https://via.placeholder.com/1200x600/3d4a0a/ffffff?text=Image+2",
-      caption: "Caption for Image 2"
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/kn8jvlqr_1%20%283%29.jpg",
+      caption: "To spend Quality Time with Family"
     },
     {
-      image: "https://via.placeholder.com/1200x600/7a8e1a/ffffff?text=Image+3",
-      caption: "Caption for Image 3"
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/wudhxz40_1%20%285%29.jpg",
+      caption: "To enjoy the luxury of space"
     },
     {
-      image: "https://via.placeholder.com/1200x600/242e06/ffffff?text=Image+4",
-      caption: "Caption for Image 4"
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/fulz79e4_1%20%288%29.jpg",
+      caption: "Disconnect to connect with partner"
+    },
+    {
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/8xn9s5c2_1%20%2810%29.jpg",
+      caption: "To reconnect with yourself"
     }
   ];
 
