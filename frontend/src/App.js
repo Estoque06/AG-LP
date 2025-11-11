@@ -1113,7 +1113,7 @@ function App() {
             >
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold text-slate-900 mb-3">Yes, I Want to Secure My Piece of Central Vista Farms</h3>
-              <p className="text-slate-600">Fill in your details to receive your personalized investment strategy within 24 hours</p>
+              <p className="text-slate-600">Fill in your details to receive information about Central Vista Farms within 24 hours.</p>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-6">
