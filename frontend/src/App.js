@@ -982,8 +982,8 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 mb-12 scroll-animate">
             {[
               {
-                title: "Location Superiority",
-                desc: "60 Mins from Bangalore International Airport, bang on NH44 and just 7 mins from upcoming Bangalore-Vijayawada Expressway",
+                title: "Prime Connectivity",
+                desc: "Located right on NH44. Just 60 minutes from BLR International Airport and 7 minutes from the upcoming Bangalore-Vijayawada Expressway access.",
                 icon: MapPin
               },
               {
