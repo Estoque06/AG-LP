@@ -332,7 +332,7 @@ function App() {
                   className="group farmland-button text-white font-semibold px-10 py-7 text-lg cta-glow magnetic-button shadow-2xl hover:shadow-emerald-500/50 transform hover:scale-105 transition-all duration-300"
                   data-testid="hero-primary-cta"
                 >
-                  Schedule Our Private Investment Briefing
+                  Schedule your Private Briefing
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </div>
