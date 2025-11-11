@@ -427,8 +427,8 @@ function App() {
               }}>
                 {/* Actual Site Image */}
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_alt-graph/artifacts/h96jxo0l_1%20%2813%29.jpg" 
-                  alt="Family enjoying quality time together in their backyard - Central Vista Farms lifestyle"
+                  src="https://customer-assets.emergentagent.com/job_alt-graph/artifacts/a97h88yi_1%20%281%29.jpg" 
+                  alt="Happy family enjoying their lifestyle home - Central Vista Farms"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 
