@@ -1036,10 +1036,10 @@ function App() {
                 </div>
                 <div className="flex-grow">
                   <h4 className="text-2xl sm:text-3xl font-bold mb-4" style={{ color: '#242e06' }}>
-                    Your Confidence is Our Foundation
+                    Confidence Built-In
                   </h4>
                   <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                    Every aspect of Central Vista Farms has been engineered for your confidence and returns. Legal verification, modern infrastructure, and location selection, all done before you make your decision.
+                    We lay the foundation for your peace of mind. Every element, from location to legal verification and infrastructure—is thoroughly engineered and secured before you invest.
                   </p>
                   <div className="flex flex-wrap items-center gap-6">
                     <div className="flex items-center gap-2" style={{ color: '#5a6b10' }}>
