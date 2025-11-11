@@ -973,18 +973,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-                
-                {/* Bottom content */}
-                <div>
-                  <div className="glass-card-light rounded-2xl p-6 sm:p-8 max-w-4xl" style={{ backdropFilter: 'blur(10px)', backgroundColor: 'rgba(255, 255, 255, 0.75)' }}>
-                    <h3 className="text-3xl sm:text-4xl font-bold mb-4" style={{ color: '#242e06' }}>
-                      The Central Vista Farms Difference
-                    </h3>
-                    <p className="text-lg sm:text-xl mb-6" style={{ color: '#5a6b10' }}>
-                      This project is not merely a purchase, it is a private sanctuary and strategic placement built to deliver maximum appreciation and zero hassle.
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
