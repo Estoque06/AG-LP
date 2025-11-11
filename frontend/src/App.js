@@ -132,7 +132,110 @@ const ProjectTabs = () => {
       </div>
     ),
     1: <div className="p-8"><p className="text-lg text-slate-700">Masterplan content will go here</p></div>,
-    2: <div className="p-8"><p className="text-lg text-slate-700">Location Advantages content will go here</p></div>,
+    2: (
+      <div className="p-8 sm:p-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {/* Bangalore-Vijayawada Expressway */}
+          <div className="flex items-center gap-4 p-6 rounded-xl" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(90, 107, 16, 0.15)' }}>
+              <TrendingUp className="w-6 h-6" style={{ color: '#5a6b10' }} />
+            </div>
+            <div className="flex-1">
+              <p className="font-bold text-lg" style={{ color: '#242e06' }}>Bangalore-Vijayawada Expressway</p>
+              <p className="text-sm text-slate-600">7 Mins</p>
+            </div>
+          </div>
+
+          {/* Bengaluru-Hyderabad Highway */}
+          <div className="flex items-center gap-4 p-6 rounded-xl" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(90, 107, 16, 0.15)' }}>
+              <TrendingUp className="w-6 h-6" style={{ color: '#5a6b10' }} />
+            </div>
+            <div className="flex-1">
+              <p className="font-bold text-lg" style={{ color: '#242e06' }}>Bengaluru-Hyderabad Highway</p>
+              <p className="text-sm text-slate-600">3 Mins</p>
+            </div>
+          </div>
+
+          {/* NACIN Mega Campus */}
+          <div className="flex items-center gap-4 p-6 rounded-xl" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(90, 107, 16, 0.15)' }}>
+              <Users className="w-6 h-6" style={{ color: '#5a6b10' }} />
+            </div>
+            <div className="flex-1">
+              <p className="font-bold text-lg" style={{ color: '#242e06' }}>NACIN Mega Campus</p>
+              <p className="text-sm text-slate-600">12 Mins</p>
+            </div>
+          </div>
+
+          {/* Penukonda Fort */}
+          <div className="flex items-center gap-4 p-6 rounded-xl" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(90, 107, 16, 0.15)' }}>
+              <Target className="w-6 h-6" style={{ color: '#5a6b10' }} />
+            </div>
+            <div className="flex-1">
+              <p className="font-bold text-lg" style={{ color: '#242e06' }}>Penukonda Fort</p>
+              <p className="text-sm text-slate-600">35 Mins</p>
+            </div>
+          </div>
+
+          {/* BEL Mega Campus */}
+          <div className="flex items-center gap-4 p-6 rounded-xl" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(90, 107, 16, 0.15)' }}>
+              <Users className="w-6 h-6" style={{ color: '#5a6b10' }} />
+            </div>
+            <div className="flex-1">
+              <p className="font-bold text-lg" style={{ color: '#242e06' }}>BEL Mega Campus</p>
+              <p className="text-sm text-slate-600">12 Mins</p>
+            </div>
+          </div>
+
+          {/* Lepakshi Temple */}
+          <div className="flex items-center gap-4 p-6 rounded-xl" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(90, 107, 16, 0.15)' }}>
+              <Home className="w-6 h-6" style={{ color: '#5a6b10' }} />
+            </div>
+            <div className="flex-1">
+              <p className="font-bold text-lg" style={{ color: '#242e06' }}>Lepakshi Temple</p>
+              <p className="text-sm text-slate-600">20 Mins</p>
+            </div>
+          </div>
+
+          {/* APIIC Industrial Park */}
+          <div className="flex items-center gap-4 p-6 rounded-xl" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(90, 107, 16, 0.15)' }}>
+              <Zap className="w-6 h-6" style={{ color: '#5a6b10' }} />
+            </div>
+            <div className="flex-1">
+              <p className="font-bold text-lg" style={{ color: '#242e06' }}>APIIC Industrial Park</p>
+              <p className="text-sm text-slate-600">12 Mins</p>
+            </div>
+          </div>
+
+          {/* Puttaparthi Temple */}
+          <div className="flex items-center gap-4 p-6 rounded-xl" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(90, 107, 16, 0.15)' }}>
+              <Home className="w-6 h-6" style={{ color: '#5a6b10' }} />
+            </div>
+            <div className="flex-1">
+              <p className="font-bold text-lg" style={{ color: '#242e06' }}>Puttaparthi Temple</p>
+              <p className="text-sm text-slate-600">40 Mins</p>
+            </div>
+          </div>
+
+          {/* Upcoming IT City */}
+          <div className="flex items-center gap-4 p-6 rounded-xl sm:col-span-2" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0" style={{ backgroundColor: 'rgba(90, 107, 16, 0.15)' }}>
+              <Sparkles className="w-6 h-6" style={{ color: '#5a6b10' }} />
+            </div>
+            <div className="flex-1">
+              <p className="font-bold text-lg" style={{ color: '#242e06' }}>Upcoming IT City</p>
+              <p className="text-sm text-slate-600">10 Mins</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    ),
     3: <div className="p-8"><p className="text-lg text-slate-700">Ammenities & Features content will go here</p></div>
   };
 
