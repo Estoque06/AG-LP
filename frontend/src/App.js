@@ -51,6 +51,64 @@ const AnimatedCounter = ({ end, duration = 2000, suffix = "" }) => {
   );
 };
 
+// Project Tabs Component
+const ProjectTabs = () => {
+  const [activeTab, setActiveTab] = useState(0);
+
+  const tabs = [
+    { id: 0, label: "Highlights" },
+    { id: 1, label: "Masterplan" },
+    { id: 2, label: "Location Advantages" },
+    { id: 3, label: "Ammenities & Features" }
+  ];
+
+  const tabContent = {
+    0: <div className="p-8"><p className="text-lg text-slate-700">Highlights content will go here</p></div>,
+    1: <div className="p-8"><p className="text-lg text-slate-700">Masterplan content will go here</p></div>,
+    2: <div className="p-8"><p className="text-lg text-slate-700">Location Advantages content will go here</p></div>,
+    3: <div className="p-8"><p className="text-lg text-slate-700">Ammenities & Features content will go here</p></div>
+  };
+
+  return (
+    <div className="scroll-animate">
+      <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+        {/* Tab Header */}
+        <div className="border-b border-gray-200">
+          <div className="flex overflow-x-auto">
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`flex-1 min-w-[150px] px-6 py-4 text-center font-semibold transition-all duration-300 relative whitespace-nowrap ${
+                  activeTab === tab.id
+                    ? 'text-white'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+                style={{
+                  backgroundColor: activeTab === tab.id ? '#5a6b10' : 'transparent'
+                }}
+              >
+                {tab.label}
+                {activeTab === tab.id && (
+                  <div
+                    className="absolute bottom-0 left-0 right-0 h-1"
+                    style={{ backgroundColor: '#242e06' }}
+                  />
+                )}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Tab Content */}
+        <div className="min-h-[300px]">
+          {tabContent[activeTab]}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 // Image Carousel Component
 const ImageCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
