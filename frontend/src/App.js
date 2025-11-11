@@ -126,7 +126,7 @@ const ProjectTabs = () => {
               <CheckCircle2 className="w-8 h-8" style={{ color: '#5a6b10' }} />
             </div>
             <p className="font-bold text-xl mb-1" style={{ color: '#242e06' }}>Approved with Plan Sanctions</p>
-            <p className="text-sm text-slate-600">Fully Legal & Verified</p>
+            <p className="text-sm text-slate-600">Verified and Secure</p>
           </div>
         </div>
       </div>
