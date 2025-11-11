@@ -525,7 +525,7 @@ const ImageCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 2000); // Change slide every 2 seconds
+    }, 3000); // Change slide every 3 seconds
 
     return () => clearInterval(interval);
   }, [slides.length]);
