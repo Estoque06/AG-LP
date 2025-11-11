@@ -63,7 +63,74 @@ const ProjectTabs = () => {
   ];
 
   const tabContent = {
-    0: <div className="p-8"><p className="text-lg text-slate-700">Highlights content will go here</p></div>,
+    0: (
+      <div className="p-8 sm:p-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* 60mins from Airport */}
+          <div className="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <MapPin className="w-8 h-8" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="font-bold text-xl mb-1" style={{ color: '#242e06' }}>60 Minutes</p>
+            <p className="text-sm text-slate-600">from Bangalore International Airport</p>
+          </div>
+
+          {/* 28 Acres */}
+          <div className="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <TreePine className="w-8 h-8" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="font-bold text-xl mb-1" style={{ color: '#242e06' }}>28 Acres</p>
+            <p className="text-sm text-slate-600">of Lush Green</p>
+          </div>
+
+          {/* Tropical Themed */}
+          <div className="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Leaf className="w-8 h-8" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="font-bold text-xl mb-1" style={{ color: '#242e06' }}>Tropical Themed</p>
+            <p className="text-sm text-slate-600">Community</p>
+          </div>
+
+          {/* Modern Amenities */}
+          <div className="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Sparkles className="w-8 h-8" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="font-bold text-xl mb-1" style={{ color: '#242e06' }}>Modern</p>
+            <p className="text-sm text-slate-600">Amenities & Features</p>
+          </div>
+
+          {/* 101 Premium Plots */}
+          <div className="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Award className="w-8 h-8" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="font-bold text-xl mb-1" style={{ color: '#242e06' }}>101 Premium</p>
+            <p className="text-sm text-slate-600">Farm Plots</p>
+          </div>
+
+          {/* Plot Sizes */}
+          <div className="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Home className="w-8 h-8" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="font-bold text-xl mb-1" style={{ color: '#242e06' }}>Multiple Sizes</p>
+            <p className="text-sm text-slate-600">7000, 8000 & 10000 sqft</p>
+          </div>
+
+          {/* Approved */}
+          <div className="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-lg transition-shadow sm:col-span-2 lg:col-span-2" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <CheckCircle2 className="w-8 h-8" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="font-bold text-xl mb-1" style={{ color: '#242e06' }}>Approved with Plan Sanctions</p>
+            <p className="text-sm text-slate-600">Fully Legal & Verified</p>
+          </div>
+        </div>
+      </div>
+    ),
     1: <div className="p-8"><p className="text-lg text-slate-700">Masterplan content will go here</p></div>,
     2: <div className="p-8"><p className="text-lg text-slate-700">Location Advantages content will go here</p></div>,
     3: <div className="p-8"><p className="text-lg text-slate-700">Ammenities & Features content will go here</p></div>
