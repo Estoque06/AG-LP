@@ -277,8 +277,8 @@ function App() {
                 data-testid="hero-subheadline"
                 style={{ animationDelay: '0.2s' }}
               >
-                Anyone can plot and sell. We start with the difficult work, Ensuring your premium, future-ready investment is
-                <span className="font-bold" style={{ color: '#242e06' }}> indisputable and poised for accelerated capital growth.</span>
+                Your second home isn't just a retreat, it's your personal escape shaped around nature, comfort, and community. From curated locations to seamless infrastructure, we create spaces where
+                <span className="font-bold" style={{ color: '#242e06' }}> weekends feel like vacations and every return feels like arrival.</span>
               </p>
               
               {/* Trust Badge - Moved here */}
