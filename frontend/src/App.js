@@ -907,10 +907,10 @@ function App() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-20 scroll-animate">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Why do you need a second home?
+              Why do you need to own a farmhouse?
             </h2>
             <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-              Discover the reasons why a second home is more than just property—it's peace, connection, and freedom.
+              Discover the reasons why a farmhouse is more than just property—it's peace, connection, and freedom.
             </p>
           </div>
 
