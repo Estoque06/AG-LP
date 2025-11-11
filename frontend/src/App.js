@@ -102,13 +102,13 @@ const ProjectTabs = () => {
             <p className="text-sm text-slate-600">Amenities & Features</p>
           </div>
 
-          {/* 101 Premium Plots */}
+          {/* 101 Exclusive Farmhouse Plots */}
           <div className="flex flex-col items-center text-center p-6 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
             <div className="w-16 h-16 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
               <Award className="w-8 h-8" style={{ color: '#5a6b10' }} />
             </div>
-            <p className="font-bold text-xl mb-1" style={{ color: '#242e06' }}>101 Premium</p>
-            <p className="text-sm text-slate-600">Farm Plots</p>
+            <p className="font-bold text-xl mb-1" style={{ color: '#242e06' }}>101 Exclusive</p>
+            <p className="text-sm text-slate-600">Farmhouse Plots</p>
           </div>
 
           {/* Plot Sizes */}
