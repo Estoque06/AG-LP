@@ -267,7 +267,7 @@ function App() {
                 <span className="text-slate-900">We Don't Just Sell Land.</span>
                 <br />
                 <span className="farmland-gradient bg-clip-text text-transparent">
-                  We Resolve Doubt.
+                  We Sell a Lifestyle.
                 </span>
               </h1>
               
