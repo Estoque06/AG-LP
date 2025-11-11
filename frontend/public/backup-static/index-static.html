@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Vista Farms - Premium Agricultural Investment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Mobile CTA Bar -->
+    <div id="sticky-mobile-cta" class="sticky-cta-bar" data-testid="sticky-mobile-cta">
+        <button class="btn-primary w-full" onclick="scrollToForm()" data-testid="sticky-cta-button">
+            Get Investment Strategy
+            <svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" data-testid="hero-section">
+        <div class="hero-background">
+            <div class="floating-orb orb-1"></div>
+            <div class="floating-orb orb-2"></div>
+            <div class="floating-orb orb-3"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <div class="text-center">
+                <!-- Trust Badge -->
+                <div class="trust-badge scroll-animate" data-testid="trust-badge">
+                    <span>13+ Years of Expertise | Zero Litigation | On Time Delivery Guaranteed</span>
+                </div>
+                
+                <!-- Main Headline -->
+                <h1 class="hero-headline scroll-animate" data-testid="hero-headline" style="animation-delay: 0.2s">
+                    <span>We Don't Just Sell Land.</span>
+                    <br>
+                    <span class="gradient-text">We Resolve Doubt.</span>
+                </h1>
+                
+                <!-- Subheadline -->
+                <p class="hero-subheadline scroll-animate" data-testid="hero-subheadline" style="animation-delay: 0.3s">
+                    Anyone can plot and sell. We start with the difficult work: Ensuring your premium, future-ready investment is
+                    <span class="highlight-text"> indisputable and poised for accelerated capital growth.</span>
+                </p>
+                
+                <!-- CTA Button -->
+                <div class="cta-container scroll-animate" style="animation-delay: 0.4s">
+                    <button class="btn-primary btn-large" onclick="scrollToForm()" data-testid="hero-primary-cta">
+                        Schedule Our Private Investment Briefing
+                        <svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Trust Indicators -->
+                <div class="trust-indicators scroll-animate" style="animation-delay: 0.5s">
+                    <div class="trust-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>1200+ Acres Transacted, Developed & Delivered</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                        <span>1000+ Satisfied Families</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22V12M12 12L7 7M12 12l5-5"/>
+                            <path d="M7 22l5-10 5 10"/>
+                        </svg>
+                        <span>110000+ Trees Planted</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-wheel">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem / Agitation Section -->
+    <section class="section bg-white" data-testid="about-section">
+        <div class="container">
+            <div class="section-header text-center scroll-animate">
+                <div class="section-badge">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                        <polyline points="17 6 23 6 23 12"/>
+                    </svg>
+                    <span>Investment Strategy</span>
+                </div>
+                <h2 class="section-title">
+                    The Volatility Trap:
+                    <span class="title-highlight">Why Your Portfolio Needs Grounding</span>
+                </h2>
+                <p class="section-subtitle">
+                    For decades, the pillars of investment have demanded an unmanageable level of risk. Today's market is defined by speculation, speed, and zero control.
+                </p>
+            </div>
+
+            <div class="content-vertical">
+                <!-- The Problem -->
+                <div class="scroll-animate">
+                    <h3 class="content-heading">The Problem: Exposure and Dilution</h3>
+                    <p class="content-text">
+                        Your hard-earned wealth is subject to global crashes and decisions made by people you don't know. You are diversified, but you are not truly <strong class="text-highlight">Secured</strong>.
+                    </p>
+                </div>
+
+                <!-- The Agitation -->
+                <div class="scroll-animate" style="animation-delay: 0.2s">
+                    <h3 class="content-heading">The Agitation: Loss of Control and Legacy</h3>
+                    <p class="content-text">
+                        What happens when the market dips 30%? You are forced to passively watch your wealth erode. You lack control over the asset's performance and future, leaving your legacy vulnerable to external forces.
+                    </p>
+                    <p class="content-text font-medium">
+                        For true wealth preservation, you need an asset that <strong class="text-highlight">you dictate</strong>, not something you merely track.
+                    </p>
+                </div>
+
+                <!-- Solution Bridge -->
+                <div class="solution-bridge scroll-animate" style="animation-delay: 0.4s">
+                    <h3 class="bridge-text">
+                        This Is Why True Wealth Requires Tangible Control and Absolute Ownership.
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Elite Asset Section -->
+    <section class="section bg-light" data-testid="why-invest-section">
+        <div class="container">
+            <div class="section-header text-center scroll-animate">
+                <div class="section-badge">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                        <polyline points="9 22 9 12 15 12 15 22"/>
+                    </svg>
+                    <span>Premium Land & Lifestyle</span>
+                </div>
+                <h2 class="section-title">
+                    The Elite Asset:
+                    <span class="gradient-text">Lifestyle, Location, and Unmatched ROI</span>
+                </h2>
+                <p class="section-subtitle">
+                    We don't just secure your capital; we elevate your lifestyle. Premium managed land delivers three critical returns that secure both your wealth and your future quality of life.
+                </p>
+            </div>
+
+            <div class="content-vertical">
+                <!-- Benefit 1 -->
+                <div class="scroll-animate" data-testid="benefit-card-0">
+                    <h3 class="benefit-heading">1. Tangible Security & Zero Volatility</h3>
+                    <p class="content-text">
+                        Land is the ultimate finite asset. It cannot be volatile, crash, or disappear—it is a non-depreciating foundation for wealth. Our <strong class="text-highlight">Tangible Security</strong> is further guaranteed by our 13-year clear title policy and zero-litigation track record.
+                    </p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="scroll-animate" style="animation-delay: 0.2s" data-testid="benefit-card-1">
+                    <h3 class="benefit-heading">2. Second Home Premium & Lifestyle Asset</h3>
+                    <p class="content-text">
+                        Escape the noise. This is a turnkey, managed escape, ready for you to build your personal villa or simply enjoy the curated surroundings. We deliver the luxury of a <strong class="text-highlight">private retreat</strong> without the friction of personal management.
+                    </p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="scroll-animate" style="animation-delay: 0.4s" data-testid="benefit-card-2">
+                    <h3 class="benefit-heading">3. High-Control Appreciation & Maximum ROI</h3>
+                    <p class="content-text">
+                        We strategically position your asset on the path of rapid urban expansion, ensuring <strong class="text-highlight">Maximum ROI</strong>. You control the timing and direction of the investment, while our location strategy accelerates the profit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="testimonial-box scroll-animate">
+                <p class="testimonial-text">
+                    "We've transformed land investment into a sophisticated asset class that delivers both lifestyle enhancement and superior financial returns. This is where security meets opportunity."
+                </p>
+                <p class="testimonial-author">— Verified Investor Testimonial</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bangalore Advantage Section -->
+    <section class="section bg-white" data-testid="bangalore-section">
+        <div class="container">
+            <div class="section-header text-center scroll-animate">
+                <div class="section-badge">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    <span>Local Market Insight</span>
+                </div>
+                <h2 class="section-title">
+                    The Bangalore Advantage:
+                    <span class="gradient-text">Securing the Next High-Value Corridor</span>
+                </h2>
+                <p class="section-subtitle">
+                    Bangalore's premium boundaries are no longer static. We understand that strategic land placement is the single most critical factor for guaranteed ROI, which is why our 13-year process begins here.
+                </p>
+            </div>
+
+            <div class="content-vertical scroll-animate">
+                <p class="content-text">
+                    Land is transitioning into low-density, high-value residential havens far faster than the city core can adapt.
+                </p>
+
+                <div class="insight-box">
+                    <h3 class="insight-heading">The Key Insight</h3>
+                    <p class="content-text">
+                        We select land parcels on the absolute path of inevitable urban expansion. By focusing on <strong class="text-highlight">Location Superiority</strong> and <strong class="text-highlight">Legal Certainty</strong>, we ensure your investment realizes maximum value as the city's elite lifestyle shifts outward.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="advantage-heading">Strategic Advantages</h3>
+                    <div class="advantage-list">
+                        <div class="advantage-item">
+                            <svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Positioned on high-growth corridors</span>
+                        </div>
+                        <div class="advantage-item">
+                            <svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Adjacent to premium infrastructure</span>
+                        </div>
+                        <div class="advantage-item">
+                            <svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Exclusive access near burgeoning employment and premium international education corridors</span>
+                        </div>
+                        <div class="advantage-item">
+                            <svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Positioned to capitalize on confirmed public infrastructure expansion</span>
+                        </div>
+                        <div class="advantage-item">
+                            <svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"/>
+                            </svg>
+                            <span>Elite residential development zone</span>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="content-text font-medium">
+                    You are investing in a <strong class="text-highlight">future address</strong>, not just acreage.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Central Vista Farms Project Section -->
+    <section id="current-project" class="section project-section" data-testid="project-section">
+        <div class="project-background">
+            <div class="project-orb project-orb-1"></div>
+            <div class="project-orb project-orb-2"></div>
+        </div>
+
+        <div class="container-large">
+            <div class="section-header text-center scroll-animate">
+                <div class="section-badge-dark">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                        <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                    </svg>
+                    <span>Project Showcase</span>
+                </div>
+                <h2 class="project-title">
+                    Central Vista Farms
+                    <span class="project-subtitle-accent">A Masterpiece of Strategic Investment</span>
+                </h2>
+                <p class="project-description">
+                    This project is not merely a purchase; it is a private sanctuary and strategic placement built to deliver maximum appreciation and zero hassle.
+                </p>
+            </div>
+
+            <div class="project-grid">
+                <!-- Project Image -->
+                <div class="scroll-animate">
+                    <div class="project-image">
+                        <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22V12M12 12L7 7M12 12l5-5"/>
+                            <path d="M7 22l5-10 5 10"/>
+                        </svg>
+                        <div class="project-badge-overlay">Limited Plots Available</div>
+                    </div>
+                </div>
+
+                <!-- Project Details -->
+                <div class="scroll-animate" style="animation-delay: 0.2s">
+                    <h3 class="project-features-title">The Central Vista Difference is Your Peace of Mind</h3>
+
+                    <div class="feature-list">
+                        <!-- Feature 1 -->
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Location Superiority</h4>
+                                <p class="feature-subtitle">0 Compromise on Future Value</p>
+                                <p class="feature-description">Strategically located adjacent to the new international school zone, securing maximum future capital appreciation and accessibility.</p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 2 -->
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                    <polyline points="9 22 9 12 15 12 15 22"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">The Second Home Ecosystem</h4>
+                                <p class="feature-subtitle">Turnkey Luxury</p>
+                                <p class="feature-description">Turnkey management, world-class amenities, and immediate building readiness. We eliminate the friction of development, leaving you only with the luxury of choice.</p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 3 -->
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Clear Title Guarantee</h4>
+                                <p class="feature-subtitle">0 Litigations</p>
+                                <p class="feature-description">Every parcel is vetted against our 13-year, multi-stage legal checklist before public offering. Your investment is safe, guaranteed.</p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 4 -->
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 class="feature-title">Comprehensive Infrastructure</h4>
+                                <p class="feature-subtitle">0 Delays</p>
+                                <p class="feature-description">Premium internal roads, gated security, and utility connections are complete and operational today.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="security-badge">
+                        <svg class="security-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                        <div>
+                            <h4 class="security-title">Security Badge</h4>
+                            <p class="security-text">
+                                Every aspect of Central Vista Farms has been engineered for your confidence and returns. Legal verification, infrastructure completion, and location selection—all done before you make your decision.
+                            </p>
+                            <div class="security-guarantee">
+                                <svg class="lock-icon" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>100% Secure • Zero Litigation Guarantee</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn-primary w-full btn-large" onclick="scrollToForm()" data-testid="project-cta">
+                        Secure Your Piece of Central Vista Farms
+                        <svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="section contact-section" data-testid="contact-section">
+        <div class="contact-background">
+            <div class="contact-orb contact-orb-1"></div>
+            <div class="contact-orb contact-orb-2"></div>
+        </div>
+
+        <div class="container-medium">
+            <div class="section-header text-center scroll-animate">
+                <h2 class="section-title">
+                    Your Journey to <span class="gradient-text">Secured Wealth</span> Starts Here
+                </h2>
+                <p class="section-subtitle">
+                    We have solved the problem of secure, high-value asset diversification. Now it's time to secure your piece of proven land. We handle the location selection, the legalities, and the management. <strong class="text-highlight">You handle the decision.</strong>
+                </p>
+            </div>
+
+            <!-- Contact Form -->
+            <div id="contact-form" class="contact-form-container scroll-animate" data-testid="contact-form">
+                <div class="text-center form-header">
+                    <h3 class="form-title">Yes, I Want to Secure My Piece of Central Vista Farms</h3>
+                    <p class="form-subtitle">Fill in your details to receive your personalized investment strategy within 24 hours</p>
+                </div>
+
+                <form id="leadForm" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            class="form-input"
+                            placeholder="John Smith"
+                            required
+                            data-testid="form-input-name"
+                        />
+                        <span class="form-error" id="name-error"></span>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                class="form-input"
+                                placeholder="john@example.com"
+                                required
+                                data-testid="form-input-email"
+                            />
+                            <span class="form-error" id="email-error"></span>
+                            <p class="form-hint">
+                                <svg class="hint-icon" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"/>
+                                </svg>
+                                We respect your privacy. Your email is 100% secure.
+                            </p>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                class="form-input"
+                                placeholder="+91 98765 43210"
+                                required
+                                data-testid="form-input-phone"
+                            />
+                            <span class="form-error" id="phone-error"></span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary w-full btn-large" id="submitBtn" data-testid="form-submit-button">
+                        <span id="btnText">
+                            Secure My Investment Strategy
+                            <svg class="icon-inline" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </span>
+                        <span id="btnLoader" class="btn-loader" style="display: none;">
+                            <div class="spinner"></div>
+                            Submitting...
+                        </span>
+                    </button>
+                </form>
+
+                <!-- Privacy Assurance -->
+                <div class="privacy-assurance">
+                    <svg class="privacy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                    <p>
+                        <strong>Privacy Assurance:</strong> We respect your privacy. Your details are secured and will only be used to discuss your investment strategy with Central Vista Farms.
+                    </p>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon-wrapper">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="contact-label">Call Us</div>
+                            <a href="tel:+919876543210" class="contact-link">+91 98765 43210</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon-wrapper">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="contact-label">Email Us</div>
+                            <a href="mailto:info@centralvistafarms.com" class="contact-link">info@centralvistafarms.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center ssl-badge scroll-animate">
+                <div class="ssl-badge-content">
+                    <svg class="ssl-icon" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>SSL Secured • 256-bit Encryption</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-testid="footer">
+        <div class="container">
+            <div class="text-center">
+                <div class="footer-brand">
+                    <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                        <polyline points="9 22 9 12 15 12 15 22"/>
+                    </svg>
+                    <span class="footer-title">Central Vista Farms</span>
+                </div>
+                <p class="footer-tagline">
+                    Resolving doubt. Securing wealth. Elevating lifestyle.
+                </p>
+                <div class="footer-links">
+                    <a href="#">Investment Strategy</a>
+                    <span>•</span>
+                    <a href="#current-project">Central Vista Farms</a>
+                    <span>•</span>
+                    <a href="#">Legal Guarantee</a>
+                    <span>•</span>
+                    <a href="#contact-form">Contact</a>
+                </div>
+                <p class="footer-copyright">
+                    © 2025 Central Vista Farms. All rights reserved. | RERA Approved
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
