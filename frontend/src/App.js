@@ -501,24 +501,28 @@ const ImageCarousel = () => {
 
   const slides = [
     {
-      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/zx1byj98_1%20%2815%29.jpg",
-      caption: "Build a legacy home"
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/placeholder_1_17.jpg",
+      caption: "Invest with Trust. It's That Simple."
     },
     {
-      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/kn8jvlqr_1%20%283%29.jpg",
-      caption: "To spend Quality Time with Family"
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/bsbh394u_1%20%2815%29.jpg",
+      caption: "Legacy Home: Beyond a House, It's Your Heritage."
     },
     {
-      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/wudhxz40_1%20%285%29.jpg",
-      caption: "To enjoy the luxury of space"
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/3fotpxg0_1%20%283%29.jpg",
+      caption: "To Spend Quality Time with Family"
     },
     {
-      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/fulz79e4_1%20%288%29.jpg",
-      caption: "Disconnect to connect with partner"
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/bk0gyzqy_1%20%2816%29.jpg",
+      caption: "Don't Just Live, Spread Out."
     },
     {
-      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/8xn9s5c2_1%20%2810%29.jpg",
-      caption: "To reconnect with yourself"
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/dvn8b7be_1%20%288%29.jpg",
+      caption: "Unplug Together. Recharge Your Relationship."
+    },
+    {
+      image: "https://customer-assets.emergentagent.com/job_alt-graph/artifacts/s892mbuk_1%20%2810%29.jpg",
+      caption: "Nature's Path to Self-Discovery."
     }
   ];
 
