@@ -381,13 +381,8 @@ function App() {
       <section id="investment-strategy" className="py-32 bg-white relative" data-testid="about-section">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-20 scroll-animate">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
-              <TrendingUp className="w-4 h-4" style={{ color: '#5a6b10' }} />
-              <span className="text-sm font-semibold uppercase tracking-wide" style={{ color: '#242e06' }}>Investment Strategy</span>
-            </div>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              The Volatility Trap:
-              <span className="block" style={{ color: '#5a6b10' }}>Why Your Portfolio Needs Grounding</span>
+              Why do you need a second home?
             </h2>
             <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
               For decades, the pillars of investment have demanded an unmanageable level of risk. Today's market is defined by speculation, speed, and zero control.
