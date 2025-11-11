@@ -687,6 +687,14 @@ function App() {
             </div>
           </div>
 
+          {/* Project Facts Tabs */}
+          <div className="mt-16">
+            <h3 className="text-3xl sm:text-4xl font-bold text-center mb-8" style={{ color: '#242e06' }}>
+              Project Facts
+            </h3>
+            <ProjectTabs />
+          </div>
+
           {/* CTA Section */}
           <div className="text-center mt-16 scroll-animate">
             <Button 
