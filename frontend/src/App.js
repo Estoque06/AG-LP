@@ -131,7 +131,29 @@ const ProjectTabs = () => {
         </div>
       </div>
     ),
-    1: <div className="p-8"><p className="text-lg text-slate-700">Masterplan content will go here</p></div>,
+    1: (
+      <div className="p-8 sm:p-12">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-6">
+            <h4 className="text-2xl sm:text-3xl font-bold mb-4" style={{ color: '#242e06' }}>
+              Where Vision Becomes Reality
+            </h4>
+            <p className="text-lg text-slate-700 max-w-3xl mx-auto">
+              The detailed master plan showcases how Central Vista has been carefully laid out to balance private and communal spaces while maintaining the integrity of the landscape.
+            </p>
+          </div>
+          
+          {/* Masterplan Image */}
+          <div className="rounded-2xl overflow-hidden shadow-2xl">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_alt-graph/artifacts/1j6dfvmr_masterplan.webp" 
+              alt="Central Vista Farms Master Plan - Where Vision Becomes Reality"
+              className="w-full h-auto"
+            />
+          </div>
+        </div>
+      </div>
+    ),
     2: (
       <div className="p-8 sm:p-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
