@@ -713,9 +713,6 @@ function App() {
               <a href="#current-project" className="text-sm font-medium hover:underline transition-colors" style={{ color: scrollY > 50 ? '#242e06' : '#0f172a' }}>
                 Central Vista Farms
               </a>
-              <a href="#investment-strategy" className="text-sm font-medium hover:underline transition-colors" style={{ color: scrollY > 50 ? '#242e06' : '#0f172a' }}>
-                Investment Strategy
-              </a>
               <Button
                 onClick={scrollToForm}
                 size="sm"
