@@ -824,6 +824,85 @@ function App() {
         </div>
       </section>
 
+      {/* Testimonials */}
+      <section className="py-32 bg-white relative overflow-hidden" data-testid="testimonials-section">
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 left-1/4 w-96 h-96 rounded-full blur-3xl" style={{ backgroundColor: '#5a6b10' }}></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 rounded-full blur-3xl" style={{ backgroundColor: '#7a8e1a' }}></div>
+        </div>
+
+        <div className="max-w-6xl mx-auto px-6 relative z-10">
+          <div className="text-center mb-20 scroll-animate">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Users className="w-4 h-4" style={{ color: '#5a6b10' }} />
+              <span className="text-sm font-semibold uppercase tracking-wide" style={{ color: '#242e06' }}>Client Success Stories</span>
+            </div>
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">What Our Clients Say</h2>
+            <p className="text-lg sm:text-xl text-slate-600">Real experiences from satisfied landowners</p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                name: "Sreepriya H",
+                quote: "The team explained everything with honesty and clarity. Agrocorp's managed farmland model gives us real peace of mind, our land's cared for, even when we're not around.",
+                rating: 5,
+                link: "https://www.google.com/maps/reviews/@13.0676209,77.5934492,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUR1bzhHdVhBEAE!2m1!1s0x0:0x515f22706541e4e4!5m1!1e4?hl=en-US&entry=ttu&g_ep=EgoyMDI1MTEwNS4wIKXMDSoASAFQAw%3D%3D"
+              },
+              {
+                name: "Manoj Inamdar",
+                quote: "Loved the concept of managed farmlands with all the comforts of a gated community. The site was green, well kept, and beautifully planned, an ideal investment and weekend escape.",
+                rating: 5,
+                link: "https://www.google.com/maps/reviews/@13.0676209,77.5934492,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURtOFpyYmVREAE!2m1!1s0x0:0x515f22706541e4e4!5m1!1e4?hl=en-US&entry=ttu&g_ep=EgoyMDI1MTEwNS4wIKXMDSoASAFQAw%3D%3D"
+              },
+              {
+                name: "Gita Vijaykumar",
+                quote: "Loved the idea of owning a managed farm. Big thanks to Syed for arranging our visit and to Deepak for his patient walkthrough. We had a great experience, our puppy had the best time too!",
+                rating: 5,
+                link: "https://www.google.com/maps/reviews/@13.0676209,77.5934492,17z/data=!3m1!4b1!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNhcnFITDN3RRAB!2m1!1s0x0:0x515f22706541e4e4!5m1!1e4?hl=en-US&entry=ttu&g_ep=EgoyMDI1MTEwNS4wIKXMDSoASAFQAw%3D%3D"
+              }
+            ].map((testimonial, idx) => (
+              <div 
+                key={idx} 
+                className="testimonial-card-modern stagger-item flex flex-col"
+                data-testid={`testimonial-card-${idx}`}
+              >
+                <div className="flex gap-1 mb-4">
+                  {[...Array(testimonial.rating)].map((_, i) => (
+                    <svg key={i} className="w-5 h-5 fill-current" style={{ color: '#7a8e1a' }} viewBox="0 0 20 20">
+                      <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                    </svg>
+                  ))}
+                </div>
+                <blockquote className="text-slate-700 italic leading-relaxed text-lg flex-grow mb-4">
+                  "{testimonial.quote}"
+                </blockquote>
+                <a 
+                  href={testimonial.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-sm font-semibold mb-6 transition-colors hover:underline"
+                  style={{ color: '#5a6b10' }}
+                >
+                  Read More
+                  <ArrowRight className="w-4 h-4" />
+                </a>
+                <div className="flex items-center gap-3 pt-4 border-t mt-auto" style={{ borderColor: 'rgba(90, 107, 16, 0.2)' }}>
+                  {/* Profile Image Placeholder */}
+                  <div className="w-14 h-14 rounded-full flex items-center justify-center overflow-hidden relative" style={{ background: 'linear-gradient(135deg, rgba(90, 107, 16, 0.2), rgba(122, 142, 26, 0.2))' }}>
+                    <div className="absolute inset-0 bg-gradient-to-br from-green-200 to-emerald-200"></div>
+                    <span className="text-2xl font-bold relative z-10" style={{ color: '#242e06' }}>{testimonial.name[0]}</span>
+                  </div>
+                  <div>
+                    <p className="font-bold text-slate-900">{testimonial.name}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-black text-white py-12" data-testid="footer" style={{ fontFamily: 'Montserrat, sans-serif' }}>
         <div className="max-w-7xl mx-auto px-6">
