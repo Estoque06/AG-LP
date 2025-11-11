@@ -1097,10 +1097,10 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-16 scroll-animate">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Your Journey to <span className="farmland-gradient bg-clip-text text-transparent">Secured Wealth</span> Starts Here
+              Your Second Home Journey Starts Here
             </h2>
             <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto">
-              We have solved the problem of secure, high-value asset diversification. Now it's time to secure your piece of proven land. We handle the location selection, the legalities, and the management. <strong style={{ color: '#5a6b10' }}>You handle the decision.</strong>
+              We've redefined the idea of second-home ownership, making it effortless, rewarding, and future-ready. It's time to claim your escape, surrounded by nature and built for comfort. We take care of the location, design, and upkeep. <strong style={{ color: '#5a6b10' }}>You just choose when to arrive and unwind.</strong>
             </p>
           </div>
 
