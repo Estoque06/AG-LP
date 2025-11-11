@@ -1039,7 +1039,7 @@ function App() {
                     Confidence Built-In
                   </h4>
                   <p className="text-lg text-slate-700 leading-relaxed mb-6">
-                    We lay the foundation for your peace of mind. Every element, from location to legal verification and infrastructure—is thoroughly engineered and secured before you invest.
+                    We lay the foundation for your peace of mind. Every element, from location to legal verification and infrastructure, is thoroughly engineered and secured before you invest.
                   </p>
                   <div className="flex flex-wrap items-center gap-6">
                     <div className="flex items-center gap-2" style={{ color: '#5a6b10' }}>
