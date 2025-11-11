@@ -51,6 +51,83 @@ const AnimatedCounter = ({ end, duration = 2000, suffix = "" }) => {
   );
 };
 
+// Image Carousel Component
+const ImageCarousel = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  const slides = [
+    {
+      image: "https://via.placeholder.com/1200x600/5a6b10/ffffff?text=Image+1",
+      caption: "Caption for Image 1"
+    },
+    {
+      image: "https://via.placeholder.com/1200x600/3d4a0a/ffffff?text=Image+2",
+      caption: "Caption for Image 2"
+    },
+    {
+      image: "https://via.placeholder.com/1200x600/7a8e1a/ffffff?text=Image+3",
+      caption: "Caption for Image 3"
+    },
+    {
+      image: "https://via.placeholder.com/1200x600/242e06/ffffff?text=Image+4",
+      caption: "Caption for Image 4"
+    }
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+    }, 2000); // Change slide every 2 seconds
+
+    return () => clearInterval(interval);
+  }, [slides.length]);
+
+  return (
+    <div className="max-w-5xl mx-auto">
+      <div className="relative rounded-3xl overflow-hidden shadow-2xl" style={{ height: '500px' }}>
+        {slides.map((slide, index) => (
+          <div
+            key={index}
+            className={`absolute inset-0 transition-opacity duration-1000 ${
+              index === currentSlide ? 'opacity-100' : 'opacity-0'
+            }`}
+          >
+            <img
+              src={slide.image}
+              alt={slide.caption}
+              className="w-full h-full object-cover"
+            />
+            {/* Text Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex items-end">
+              <div className="w-full p-8 sm:p-12">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white leading-tight">
+                  {slide.caption}
+                </h3>
+              </div>
+            </div>
+          </div>
+        ))}
+
+        {/* Slide Indicators */}
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 z-10">
+          {slides.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentSlide(index)}
+              className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                index === currentSlide 
+                  ? 'bg-white w-8' 
+                  : 'bg-white/50 hover:bg-white/75'
+              }`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
 function App() {
   const [formData, setFormData] = useState({
     name: "",
