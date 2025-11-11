@@ -1243,8 +1243,8 @@ function App() {
             }}>
               {/* Actual Site Image */}
               <img 
-                src="https://customer-assets.emergentagent.com/job_farmland-conversion/artifacts/i8exjsz4_5.JPG" 
-                alt="Central Vista Farms - Beautiful landscaped path with palm trees and greenery"
+                src="https://customer-assets.emergentagent.com/job_alt-graph/artifacts/v0ljoey4_5.JPG" 
+                alt="Central Vista Farms - Beautiful sunset landscape with lush greenery and open spaces"
                 className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
