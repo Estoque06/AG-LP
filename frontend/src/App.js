@@ -881,8 +881,8 @@ function App() {
                   <div className="glass-card-light rounded-2xl p-4" style={{ backdropFilter: 'blur(10px)', backgroundColor: 'rgba(255, 255, 255, 0.95)' }}>
                     <div className="grid grid-cols-3 gap-4 text-center">
                       <div>
-                        <p className="text-2xl font-bold" style={{ color: '#242e06' }}>1200+</p>
-                        <p className="text-xs" style={{ color: '#5a6b10' }}>Acres Delivered</p>
+                        <p className="text-2xl font-bold" style={{ color: '#242e06' }}>10+</p>
+                        <p className="text-xs" style={{ color: '#5a6b10' }}>Projects Delivered</p>
                       </div>
                       <div>
                         <p className="text-2xl font-bold" style={{ color: '#242e06' }}>100%</p>
