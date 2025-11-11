@@ -315,8 +315,8 @@ function App() {
               }}>
                 {/* Actual Site Image */}
                 <img 
-                  src="https://customer-assets.emergentagent.com/job_farmland-conversion/artifacts/jutym8zo_1.jpg" 
-                  alt="Central Vista Farms - Actual picture shot at site with paved walkway, palm trees and landscaping"
+                  src="https://customer-assets.emergentagent.com/job_alt-graph/artifacts/a97h88yi_1%20%281%29.jpg" 
+                  alt="Happy family enjoying their lifestyle home - Central Vista Farms"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 
