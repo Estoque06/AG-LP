@@ -236,7 +236,201 @@ const ProjectTabs = () => {
         </div>
       </div>
     ),
-    3: <div className="p-8"><p className="text-lg text-slate-700">Ammenities & Features content will go here</p></div>
+    3: (
+      <div className="p-8 sm:p-12">
+        {/* Features Section */}
+        <h4 className="text-2xl font-bold mb-6" style={{ color: '#242e06' }}>Features</h4>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
+          {/* Smart Drainage & Water Harvesting */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Droplets className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Smart Drainage & Water Harvesting</p>
+          </div>
+
+          {/* Smart Irrigation System */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Sprout className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Smart Irrigation System</p>
+          </div>
+
+          {/* 12 Meter Internal Access Ways */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <TrendingUp className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>12 Meter Internal Access Ways</p>
+          </div>
+
+          {/* Avenue Plantation */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <TreePine className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Avenue Plantation</p>
+          </div>
+
+          {/* 24x7 Security */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Shield className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>24x7 Security</p>
+          </div>
+
+          {/* On Site Assistance */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Users className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>On Site Assistance</p>
+          </div>
+
+          {/* 90% Green & Open Spaces */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Leaf className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>90% Green & Open Spaces</p>
+          </div>
+
+          {/* RCC Panel Boundary Wall */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Home className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>RCC Panel Boundary Wall</p>
+          </div>
+
+          {/* Themed Water Bodies */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Droplets className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Themed Water Bodies</p>
+          </div>
+
+          {/* Centralised Water Storage */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Droplets className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Centralised Water Storage</p>
+          </div>
+
+          {/* Solar Street Lights */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Sun className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Solar Street Lights</p>
+          </div>
+
+          {/* CCTV Surveillance */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Shield className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>CCTV Surveillance</p>
+          </div>
+        </div>
+
+        {/* Amenities Section */}
+        <h4 className="text-2xl font-bold mb-6 mt-8" style={{ color: '#242e06' }}>Amenities</h4>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+          {/* Jogging Tracks */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <TrendingUp className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Jogging Tracks</p>
+          </div>
+
+          {/* Yoga & Meditation Decks */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Users className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Yoga & Meditation Decks</p>
+          </div>
+
+          {/* Children Play Area */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Sparkles className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Children Play Area</p>
+          </div>
+
+          {/* Senior Citizens Park */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Users className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Senior Citizens Park</p>
+          </div>
+
+          {/* Bonfire Pits */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Sparkles className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Bonfire Pits</p>
+          </div>
+
+          {/* BBQ Zone */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Sparkles className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>BBQ Zone</p>
+          </div>
+
+          {/* Stargazing Deck */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Sparkles className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Stargazing Deck</p>
+          </div>
+
+          {/* Themed Gardens */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Leaf className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Themed Gardens</p>
+          </div>
+
+          {/* Amphitheatre */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Target className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Amphitheatre</p>
+          </div>
+
+          {/* Multipurpose Playgrounds */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <Sparkles className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Multipurpose Playgrounds</p>
+          </div>
+
+          {/* Cycling Tracks */}
+          <div className="flex flex-col items-center text-center p-4 rounded-xl hover:shadow-lg transition-shadow" style={{ backgroundColor: 'rgba(90, 107, 16, 0.05)' }}>
+            <div className="w-14 h-14 rounded-full flex items-center justify-center mb-3" style={{ backgroundColor: 'rgba(90, 107, 16, 0.1)' }}>
+              <TrendingUp className="w-7 h-7" style={{ color: '#5a6b10' }} />
+            </div>
+            <p className="text-sm font-semibold" style={{ color: '#242e06' }}>Cycling Tracks</p>
+          </div>
+        </div>
+      </div>
+    )
   };
 
   return (
