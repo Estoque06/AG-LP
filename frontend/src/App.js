@@ -987,18 +987,18 @@ function App() {
                 icon: MapPin
               },
               {
-                title: "Tropical Themed Community",
-                desc: "28 Acre of themed community with only 101 premium plots",
+                title: "Exclusive Tropical Haven",
+                desc: "A sprawling 28-acre themed community featuring only 101 premium, limited-edition plots.",
                 icon: Home
               },
               {
-                title: "Clear Title Guarantee",
-                desc: "Every plot is vetted on our multi-stage legal checklist before public offering. Your investment is safe, guaranteed.",
+                title: "Absolute Title Safety",
+                desc: "Titles are secured through our multi-stage legal checklist. Vetted, clear, and guaranteed, invest with absolute confidence.",
                 icon: Shield
               },
               {
-                title: "Modern Infrastructure",
-                desc: "At Central Vista Farms, every detail is designed to let you breathe, connect, and belong. Wide open spaces, curated amenities, and nature all around, beautifully managed to stay pristine, effortless, and alive.",
+                title: "Modern Infrastructure, Primal Peace",
+                desc: "Wide open spaces and curated amenities, beautifully designed and managed to ensure a life of effortless connection and belonging.",
                 icon: CheckCircle2
               }
             ].map((feature, idx) => (
