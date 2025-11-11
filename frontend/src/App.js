@@ -475,8 +475,6 @@ function App() {
         </div>
       </section>
 
-      {/* Sections removed as requested */}
-
       {/* Current Project Spotlight - Redesigned */}
       <section id="current-project" className="py-32 relative overflow-hidden" style={{ background: 'linear-gradient(180deg, #f8faf0 0%, #ffffff 100%)' }} data-testid="project-section">
         <div className="absolute inset-0 opacity-5">
