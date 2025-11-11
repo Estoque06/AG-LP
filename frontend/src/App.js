@@ -941,7 +941,7 @@ function App() {
                 className="h-48 w-auto"
               />
             </div>
-            <p className="text-xl" style={{ color: '#5a6b10', fontStyle: 'italic' }}>A Masterpiece of Strategic Investment</p>
+            <p className="text-xl" style={{ color: '#5a6b10', fontStyle: 'italic' }}>Crafting the Ultimate Tropical Sanctuary.</p>
           </div>
 
           {/* Main Project Card with Image */}
