@@ -385,54 +385,12 @@ function App() {
               Why do you need a second home?
             </h2>
             <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-              For decades, the pillars of investment have demanded an unmanageable level of risk. Today's market is defined by speculation, speed, and zero control.
+              Discover the reasons why a second home is more than just property—it's peace, connection, and freedom.
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto space-y-8">
-            {/* The Problem */}
-            <div className="modern-card card-3d scroll-animate">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 flex-shrink-0 rounded-xl flex items-center justify-center" style={{ background: 'linear-gradient(135deg, rgba(239, 68, 68, 0.1) 0%, rgba(248, 113, 113, 0.1) 100%)' }}>
-                  <Target className="w-6 h-6 text-red-600" />
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-3" style={{ color: '#242e06' }}>The Problem, Exposure and Dilution</h3>
-                  <p className="text-lg text-slate-700 leading-relaxed">
-                    Your hard-earned wealth is subject to global crashes and decisions made by people you don't know. You are diversified, but you are not truly <strong style={{ color: '#5a6b10' }}>Secured</strong>.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* The Agitation */}
-            <div className="modern-card card-3d scroll-animate" style={{ animationDelay: '0.2s' }}>
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 flex-shrink-0 rounded-xl flex items-center justify-center" style={{ background: 'linear-gradient(135deg, rgba(251, 146, 60, 0.1) 0%, rgba(251, 191, 36, 0.1) 100%)' }}>
-                  <Zap className="w-6 h-6 text-orange-600" />
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold mb-3" style={{ color: '#242e06' }}>The Agitation, Loss of Control and Legacy</h3>
-                  <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                    What happens when the market dips 30%? You are forced to passively watch your wealth erode. You lack control over the asset's performance and future, leaving your legacy vulnerable to external forces.
-                  </p>
-                  <p className="text-lg text-slate-700 leading-relaxed font-medium">
-                    For true wealth preservation, you need an asset that <strong style={{ color: '#5a6b10' }}>you dictate</strong>, not something you merely track.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Solution Bridge */}
-            <div className="rounded-2xl p-10 scroll-animate" style={{ 
-              background: 'linear-gradient(135deg, #242e06 0%, #3d4a0a 100%)',
-              animationDelay: '0.4s' 
-            }}>
-              <h3 className="text-2xl sm:text-3xl font-bold text-center leading-relaxed text-white">
-                This Is Why True Wealth Requires Tangible Control and Absolute Ownership.
-              </h3>
-            </div>
-          </div>
+          {/* Image Carousel */}
+          <ImageCarousel />
         </div>
       </section>
 
