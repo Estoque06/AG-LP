@@ -812,7 +812,7 @@ function App() {
                 data-testid="trust-badge"
                 style={{ animationDelay: '0.3s' }}
               >
-                <p className="text-sm font-semibold uppercase tracking-wide mb-8" style={{ color: '#5a6b10' }}>101 Premium Farm Plots | Maintenance Services Available</p>
+                <p className="text-base sm:text-lg font-bold uppercase tracking-wide mb-8" style={{ color: '#5a6b10' }}>101 Premium Farm Plots | Managed Services</p>
                 
                 {/* Feature Icons */}
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto lg:mx-0">
