@@ -287,7 +287,17 @@ function App() {
                 data-testid="trust-badge"
                 style={{ animationDelay: '0.3s' }}
               >
-                <p className="text-sm font-semibold uppercase tracking-wide" style={{ color: '#5a6b10' }}>13+ Years of Expertise | Zero Litigation | On Time Delivery Guaranteed</p>
+                <p className="text-sm font-semibold uppercase tracking-wide mb-6" style={{ color: '#5a6b10' }}>13+ Years of Expertise | Zero Litigation | On Time Delivery Guaranteed</p>
+                
+                {/* Feature Icons */}
+                <div className="flex justify-center lg:justify-start">
+                  <img 
+                    src="https://customer-assets.emergentagent.com/job_alt-graph/artifacts/lkfemc14_image.png" 
+                    alt="60 Minutes from Bangalore Airport | 28 Acres of Lush Green | Tropical Themed Community | Modern Amenities & Features"
+                    className="max-w-full h-auto"
+                    style={{ maxHeight: '120px' }}
+                  />
+                </div>
               </div>
               
               {/* CTA Buttons */}
